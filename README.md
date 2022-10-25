@@ -1,4 +1,4 @@
-# Math Magicians : Setup
+# Math Magicians : Components
 
 This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.
 
@@ -9,44 +9,39 @@ This is the first project of the Math Magicians application. You will set up the
 ## Built With
 
 - HTML
-- CSS 
-- Javascript ES6 
+- CSS
+- Javascript ES6
 - Webpack
 - React
+
 ## Extensions / Plugins
 
 Webpack
 Linters Installed
--Lighthouse
--Webhint
 -Stylelint
 -ESLint
 -node_modules checker
 
-
-
 ## Getting Started
+
 - Open GitHub URL of repositry.
 - Download Code repo in zip.
 - Extract and open repo folder into visual studio code or any other Text Editor Software.
 - GitHub Repositry URL: https://github.com/MudasirSherwani/math-magicians
   To get a local copy up and running follow these simple example steps.
 
-
 ### Prerequisites
+
 - Visual Studio
 - Knowldege About HTML / CSS / JAVASCRIPT ES6
-- Lighthouse
-- Webhint
 - Stylelint
 - ESLint
 - node_modules checker
 - Github
 
-
 ### Deployment
-- [Linter](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
+- [Linter](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
 ## Authors
 
@@ -73,6 +68,6 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
+
 https://github.com/MudasirSherwani/math-magicians/blob/main/LICENSE.md
 This project is [MIT](./MIT.md) licensed.
-
