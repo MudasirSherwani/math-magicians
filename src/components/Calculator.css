@@ -14,11 +14,11 @@
 }
 
 .display-value {
-  width: 100%;
+  width: 402px;
   height: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-color: #858694;
   color: #fff;
@@ -26,7 +26,6 @@
   text-align: right;
   padding: 17px;
   font-size: 30px;
-  cursor: default;
 }
 
 .inputs {
