@@ -1,39 +1,35 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import KeyButtons from './keys';
 import './Calculator.css';
 
-export default class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  EventHandler = (element) => {
+  const EventHandler = (element) => {
     const btnValue = element.keyTag;
-    const getCalcu = calculate(this.state, btnValue);
-    this.setState(getCalcu);
+    const getCalcu = calculate(state, btnValue);
+    setState(getCalcu);
   };
 
-  render() {
-    const { total, operation, next } = this.state;
-    return (
-      <div className="calculator">
-        <div className="display">
-          <div className="display-value">
-            {total}
-            {operation}
-            {next}
-          </div>
-        </div>
-        <div className="inputs">
-          <KeyButtons onClickOperation={this.EventHandler} />
+  const { total, operation, next } = state;
+  return (
+    <div className="calculator">
+      <div className="display">
+        <div className="display-value">
+          {total}
+          {operation}
+          {next}
         </div>
       </div>
-    );
-  }
-}
+      <div className="inputs">
+        <KeyButtons onClickOperation={EventHandler} />
+      </div>
+    </div>
+  );
+};
+export default Calculator;
