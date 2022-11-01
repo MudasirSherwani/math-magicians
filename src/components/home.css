@@ -1,0 +1,15 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 48px;
+}
+
+.heading {
+  font-size: 48px;
+  margin: 10px 10px;
+}
+
+.details {
+  font-size: 24px;
+  margin: 25px 25px;
+}

@@ -5,12 +5,26 @@
   padding: 0;
 }
 
+.calculator-page {
+  display: flex;
+  justify-content: left;
+  padding: 22px;
+}
+
+.heading > h2 {
+  margin-top: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
 .calculator {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 5%;
+  margin-left: 22vw;
+  border: 2px solid black;
 }
 
 .display-value {
