@@ -1,10 +1,10 @@
-# Math Magicians : Events Handler
+# Math Magicians : Full Website
 
 This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.
 
 ## Website Live Demo Link
 
-- [Math Magicians](https://mudasirsherwani.github.io/math-magicians/public)
+- [Math Magicians](https://mathmagicbysherwani.netlify.app/)
 
 ## Built With
 
@@ -65,6 +65,7 @@ Give a ⭐️ if you like this project!
 
 - microverseinc
 - Inspiration
+- Thanks for netlify.com
 - etc
 
 ## 📝 License
