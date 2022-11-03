@@ -2,7 +2,7 @@ import operate from '../logic/operate';
 
 describe('Test Suit For Math Operations', () => {
   test('Test For Addition Of Two Numbers', () => {
-    expect(operate(4,2,'+')).toEqual('4');
+    expect(operate(4,2,'+')).toEqual('6');
   });
 
   test('Test For Subtraction Of Two Numbers', () => {
