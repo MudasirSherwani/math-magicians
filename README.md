@@ -30,6 +30,11 @@ Linters Installed
 - GitHub Repositry URL: https://github.com/MudasirSherwani/math-magicians
   To get a local copy up and running follow these simple example steps.
 
+## How to perform Test
+
+- After Clone the GitHub Repositry from URL: https://github.com/MudasirSherwani/math-magicians.
+- Open terminal and run the command "npm run test".
+- This command will show you the results of testing.
 ### Prerequisites
 
 - Visual Studio
