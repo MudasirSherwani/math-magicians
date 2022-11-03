@@ -451,6 +451,7 @@ Object {
     <div>
       <div
         class="container"
+        data-testid="Navigation"
       >
         <h1>
           Math Magicians
@@ -497,6 +498,7 @@ Object {
   "container": <div>
     <div
       class="container"
+      data-testid="Navigation"
     >
       <h1>
         Math Magicians
