@@ -16,4 +16,8 @@ describe('Test Suit For Math Operations', () => {
   test('Test For Division Of Two Numbers', () => {
     expect(operate(4, 2, '÷')).toEqual('2');
   });
+
+  test('Test For Percentage Of Two Numbers', () => {
+    expect(operate(4, 2, '%')).toEqual('0');
+  });
 });

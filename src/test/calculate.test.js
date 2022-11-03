@@ -24,4 +24,10 @@ describe('Test Suit For Calculations', () => {
     const ExpectObj = { next: null, operation: null, total: '2' };
     expect(calculate(inputObj, '=')).toEqual(ExpectObj);
   });
+
+  test('Test For Percentage Of Two Numbers', () => {
+    const inputObj = { total: 4, next: 2, operation: '%' };
+    const ExpectObj = { next: null, operation: null, total: '0' };
+    expect(calculate(inputObj, '=')).toEqual(ExpectObj);
+  });
 });
