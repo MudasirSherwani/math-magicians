@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly Renders Calculator Correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calculator-page"
+      >
+        <div
+          class="heading"
+        >
+          <h2>
+            Let's do some math!
+          </h2>
+        </div>
+        <div
+          class="calculator"
+        >
+          <div
+            class="display"
+          >
+            <div
+              class="display-value"
+            />
+          </div>
+          <div
+            class="inputs"
+          >
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="input-btn btn-org"
+              type="button"
+            >
+              ÷
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              7
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              8
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              9
+            </button>
+            <button
+              class="input-btn btn-org"
+              type="button"
+            >
+              x
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              4
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              5
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              6
+            </button>
+            <button
+              class="input-btn btn-org"
+              type="button"
+            >
+              -
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              1
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              2
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              3
+            </button>
+            <button
+              class="input-btn btn-org"
+              type="button"
+            >
+              +
+            </button>
+            <button
+              class="input-btn btn-zero"
+              type="button"
+            >
+              0
+            </button>
+            <button
+              class="input-btn undefined"
+              type="button"
+            >
+              .
+            </button>
+            <button
+              class="input-btn btn-org"
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calculator-page"
+    >
+      <div
+        class="heading"
+      >
+        <h2>
+          Let's do some math!
+        </h2>
+      </div>
+      <div
+        class="calculator"
+      >
+        <div
+          class="display"
+        >
+          <div
+            class="display-value"
+          />
+        </div>
+        <div
+          class="inputs"
+        >
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="input-btn btn-org"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="input-btn btn-org"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="input-btn btn-org"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="input-btn btn-org"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="input-btn btn-zero"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="input-btn undefined"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="input-btn btn-org"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home renders correctly Renders Header Correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="homepage"
+      >
+        <h2
+          class="heading"
+        >
+          Welcome to our page!
+        </h2>
+        <p
+          class="details"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex fugiat voluptatibus accusamus possimus perspiciatis magni non similique odio debitis, deleniti reprehenderit quae beatae nulla nobis at explicabo dignissimos commodi mollitia provident quos cupiditate aspernatur. Sit quibusdam, porro quis atque voluptatem esse sed explicabo debitis. Earum reprehenderit non sit a repellat incidunt nemo odit vel.
+        </p>
+        <p
+          class="details"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex fugiat voluptatibus accusamus possimus perspiciatis magni non similique odio debitis, deleniti reprehenderit quae beatae nulla nobis at explicabo dignissimos commodi mollitia provident quos cupiditate aspernatur. Sit quibusdam, porro quis atque voluptatem esse sed explicabo debitis. Earum reprehenderit non sit a repellat incidunt nemo odit vel.
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="homepage"
+    >
+      <h2
+        class="heading"
+      >
+        Welcome to our page!
+      </h2>
+      <p
+        class="details"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex fugiat voluptatibus accusamus possimus perspiciatis magni non similique odio debitis, deleniti reprehenderit quae beatae nulla nobis at explicabo dignissimos commodi mollitia provident quos cupiditate aspernatur. Sit quibusdam, porro quis atque voluptatem esse sed explicabo debitis. Earum reprehenderit non sit a repellat incidunt nemo odit vel.
+      </p>
+      <p
+        class="details"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex fugiat voluptatibus accusamus possimus perspiciatis magni non similique odio debitis, deleniti reprehenderit quae beatae nulla nobis at explicabo dignissimos commodi mollitia provident quos cupiditate aspernatur. Sit quibusdam, porro quis atque voluptatem esse sed explicabo debitis. Earum reprehenderit non sit a repellat incidunt nemo odit vel.
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Navigation renders correctly Renders Navigation Correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <h1>
+          Math Magicians
+        </h1>
+        <div
+          class="navbar"
+        >
+          <div
+            class="navitem"
+          >
+            <a
+              class="item"
+              href="/"
+            >
+              Home
+            </a>
+            <span
+              class="item"
+            >
+              |
+            </span>
+            <a
+              class="item"
+              href="/Calculator"
+            >
+              Calculator
+            </a>
+            <span
+              class="item"
+            >
+              |
+            </span>
+            <a
+              class="item"
+              href="/Quote"
+            >
+              Quote
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+      <div
+        class="navbar"
+      >
+        <div
+          class="navitem"
+        >
+          <a
+            class="item"
+            href="/"
+          >
+            Home
+          </a>
+          <span
+            class="item"
+          >
+            |
+          </span>
+          <a
+            class="item"
+            href="/Calculator"
+          >
+            Calculator
+          </a>
+          <span
+            class="item"
+          >
+            |
+          </span>
+          <a
+            class="item"
+            href="/Quote"
+          >
+            Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Quote renders correctly Renders Header Correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote"
+      >
+        <div
+          class="quote-text"
+        >
+          If you want to serve humanity, Your wealth should be in your hands
+          <br />
+          not in your heart and minds. –M.R Sherwani–
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote"
+    >
+      <div
+        class="quote-text"
+      >
+        If you want to serve humanity, Your wealth should be in your hands
+        <br />
+        not in your heart and minds. –M.R Sherwani–
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
