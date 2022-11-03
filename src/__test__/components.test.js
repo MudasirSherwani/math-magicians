@@ -50,4 +50,3 @@ describe('Calculator renders correctly', () => {
     expect(calc).toMatchSnapshot();
   });
 });
-
