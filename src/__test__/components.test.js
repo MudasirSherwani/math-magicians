@@ -6,6 +6,7 @@ import Navigation from '../components/Navigation';
 import Home from '../components/Home';
 import Quote from '../components/Quote';
 import Calculator from '../components/Calculator';
+import KeyButtons from '../components/keys';
 
 describe('Navigation renders correctly', () => {
   test('Renders Navigation Correctly', () => {
@@ -48,5 +49,16 @@ describe('Calculator renders correctly', () => {
       </Router>,
     );
     expect(calc).toMatchSnapshot();
+  });
+});
+
+describe('Button renders correctly', () => {
+  test('Renders Button Correctly', () => {
+    const btn = render(
+      <Router>
+        <KeyButtons />
+      </Router>,
+    );
+    expect(btn).toMatchSnapshot();
   });
 });
