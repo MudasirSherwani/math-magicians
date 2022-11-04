@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => (
-  <div className="container">
+  <div className="container" data-testid="Navigation">
     <h1>Math Magicians</h1>
     <div className="navbar">
       <div className="navitem">
